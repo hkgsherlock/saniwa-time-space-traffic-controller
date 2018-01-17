@@ -1,0 +1,29 @@
+{
+  "name": "aruji-sama-isogashii-desu",
+  "version": "0.0.0",
+  "description": "Electron.js-driven node.js desktop application for Arujis to manage their Honmaru easily with a more user-friendly, customisable user interface.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hkgsherlock/aruji-sama-isogashii-desu.git"
+  },
+  "contributors": [
+    {
+      "name": "相馬",
+      "email": "hkgsherlock@gmail.com",
+      "url": "https://github.com/hkgsherlock"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/hkgsherlock/aruji-sama-isogashii-desu/issues"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "electron": "^1.7.10"
+  },
+  "scripts": {
+    "start": "electron src/main.js",
+    "watch": "nodemon -e js,json,htm,html,css --exec electron src/main.js"
+  }
+}
