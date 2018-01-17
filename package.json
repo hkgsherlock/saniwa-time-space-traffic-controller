@@ -1,5 +1,5 @@
 {
-  "name": "aruji-sama-isogashii-desu",
+  "name": "saniwa-time-space-traffic-controller",
   "version": "0.0.0",
   "description": "Electron.js-driven node.js desktop application for Arujis to manage their Honmaru easily with a more user-friendly, customisable user interface.",
   "main": "src/index.js",
